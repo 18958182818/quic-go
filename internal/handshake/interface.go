@@ -4,8 +4,8 @@ import (
 	"crypto/x509"
 	"io"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/marten-seemann/qtls"
+	"github.com/pions/quic-go/internal/protocol"
+	"github.com/pions/qtls-vendor-extracted"
 )
 
 // Opener opens a packet

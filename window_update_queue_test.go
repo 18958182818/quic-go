@@ -1,9 +1,9 @@
 package quic
 
 import (
-	"github.com/lucas-clemente/quic-go/internal/mocks"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/pions/quic-go/internal/mocks"
+	"github.com/pions/quic-go/internal/protocol"
+	"github.com/pions/quic-go/internal/wire"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

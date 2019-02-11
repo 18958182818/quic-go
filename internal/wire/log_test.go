@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/pions/quic-go/internal/utils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

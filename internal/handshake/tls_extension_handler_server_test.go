@@ -3,9 +3,9 @@ package handshake
 import (
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/marten-seemann/qtls"
+	"github.com/pions/quic-go/internal/protocol"
+	"github.com/pions/quic-go/internal/utils"
+	"github.com/pions/qtls-vendor-extracted"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

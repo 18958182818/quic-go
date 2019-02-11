@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"time"
 
-	quic "github.com/lucas-clemente/quic-go"
-	"github.com/lucas-clemente/quic-go/h2quic"
-	"github.com/lucas-clemente/quic-go/integrationtests/tools/testserver"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/testdata"
+	quic "github.com/pions/quic-go"
+	"github.com/pions/quic-go/h2quic"
+	"github.com/pions/quic-go/integrationtests/tools/testserver"
+	"github.com/pions/quic-go/internal/protocol"
+	"github.com/pions/quic-go/internal/testdata"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

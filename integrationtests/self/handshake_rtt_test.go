@@ -5,12 +5,12 @@ import (
 	"net"
 	"time"
 
-	quic "github.com/lucas-clemente/quic-go"
-	quicproxy "github.com/lucas-clemente/quic-go/integrationtests/tools/proxy"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/qerr"
+	quic "github.com/pions/quic-go"
+	quicproxy "github.com/pions/quic-go/integrationtests/tools/proxy"
+	"github.com/pions/quic-go/internal/protocol"
+	"github.com/pions/quic-go/internal/qerr"
 
-	"github.com/lucas-clemente/quic-go/internal/testdata"
+	"github.com/pions/quic-go/internal/testdata"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
